@@ -231,5 +231,5 @@ end
 
 ####
 # Add scifinding gem
-gem "scifinding", :git => "git://github.com/complat/scifinding.git" , :group => [:plugins,:test,:development,:production]
+gem "scifinding", :git => "git://github.com/complat/scifinding.git" , branch: 'upg_oauth2', :group => [:plugins,:test,:development,:production]
 
