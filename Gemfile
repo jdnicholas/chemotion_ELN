@@ -230,3 +230,6 @@ if File.exists?(eln_plugin)
 end
 
 ####
+# Add scifinding gem
+gem "scifinding", :git => "git://github.com/complat/scifinding.git" , :group => [:plugins,:test,:development,:production]
+
